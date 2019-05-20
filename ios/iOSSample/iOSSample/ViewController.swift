@@ -11,7 +11,7 @@ import main
 
 class ViewController: UIViewController {
 
-    var job: Kotlinx_coroutines_core_nativeJob? = nil
+    var job: Kotlinx_coroutines_coreJob? = nil
     @IBOutlet weak var label: UILabel!
 
     @IBAction func buttoClicked(_ sender: UIButton) {
