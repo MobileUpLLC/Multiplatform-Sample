@@ -12,18 +12,18 @@
 		2C08BB11225DE17E0040FD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C08BB0F225DE17E0040FD69 /* Main.storyboard */; };
 		2C08BB13225DE17F0040FD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C08BB12225DE17F0040FD69 /* Assets.xcassets */; };
 		2C08BB16225DE17F0040FD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C08BB14225DE17F0040FD69 /* LaunchScreen.storyboard */; };
-		2C08BB1F225DE3480040FD69 /* main.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C08BB1E225DE3480040FD69 /* main.framework */; };
-		2C08BB20225DE3480040FD69 /* main.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C08BB1E225DE3480040FD69 /* main.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2C6FC0EE229C04E7003341C7 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6FC0ED229C04E7003341C7 /* SharedCode.framework */; };
+		2C6FC0EF229C04E7003341C7 /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6FC0ED229C04E7003341C7 /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2C08BB21225DE3480040FD69 /* Embed Frameworks */ = {
+		2C6FC0F0229C04E8003341C7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2C08BB20225DE3480040FD69 /* main.framework in Embed Frameworks */,
+				2C6FC0EF229C04E7003341C7 /* SharedCode.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +38,7 @@
 		2C08BB12225DE17F0040FD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C08BB15225DE17F0040FD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C08BB17225DE17F0040FD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C08BB1E225DE3480040FD69 /* main.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = main.framework; path = "../../SharedCode/build/xcode-frameworks/main.framework"; sourceTree = "<group>"; };
+		2C6FC0ED229C04E7003341C7 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C08BB1F225DE3480040FD69 /* main.framework in Frameworks */,
+				2C6FC0EE229C04E7003341C7 /* SharedCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		2C08BAFF225DE17E0040FD69 = {
 			isa = PBXGroup;
 			children = (
-				2C08BB1E225DE3480040FD69 /* main.framework */,
+				2C6FC0ED229C04E7003341C7 /* SharedCode.framework */,
 				2C08BB0A225DE17E0040FD69 /* iOSSample */,
 				2C08BB09225DE17E0040FD69 /* Products */,
 			);
@@ -94,7 +94,7 @@
 				2C08BB04225DE17E0040FD69 /* Sources */,
 				2C08BB05225DE17E0040FD69 /* Frameworks */,
 				2C08BB06225DE17E0040FD69 /* Resources */,
-				2C08BB21225DE3480040FD69 /* Embed Frameworks */,
+				2C6FC0F0229C04E8003341C7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
